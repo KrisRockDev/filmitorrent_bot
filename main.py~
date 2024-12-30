@@ -9,7 +9,15 @@ import time
 DIR = r'd:\filmtorrent'
 
 
+
 def convert_word_to_date(word):
+    """
+    Преобразует слова "Сегодня" и "Вчера" в дату формата "DD-MM-YYYY".
+
+    :param word: str - одно из значений "Сегодня" или "Вчера"
+    :return: str - дата в формате "DD-MM-YYYY"
+    """
+
     if word.lower() == "сегодня":
         date = datetime.datetime.now()
         word = date.strftime("%d-%m-%Y")
@@ -18,6 +26,7 @@ def convert_word_to_date(word):
         word = date.strftime("%d-%m-%Y")
 
     return word
+
 
 
 def save_pic(URL, filmitorrent, folder_dir):
@@ -107,7 +116,7 @@ def films_list(data_dict):
         lst.append(url)
         limit = 20
         if len(lst) > limit:
-            lst = lst[-1 * limit:]
+            lst = lst[-1*limit:]
             with open(file=films_list_base, mode='w', encoding='utf8') as f:
                 f.write('\n'.join(lst) + '\n')
         else:
