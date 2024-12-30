@@ -10,6 +10,9 @@ DIR = r'd:\filmtorrent'
 
 
 def convert_word_to_date(word):
+    """
+    Преобразует слова "Сегодня" и "Вчера" в дату формата "DD-MM-YYYY".
+    """
     if word.lower() == "сегодня":
         date = datetime.datetime.now()
         word = date.strftime("%d-%m-%Y")

@@ -24,5 +24,7 @@ build/
 dist/
 *.egg-info/
 
+*~
+
 description.md
 films_list.txt
