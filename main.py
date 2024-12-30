@@ -6,7 +6,7 @@ from icecream import ic
 from bs4 import BeautifulSoup
 from send_message import telegram_sender
 from download_files import get_urls_bin_files
-from settings import filmitorrent, films_list_base
+from settings import filmitorrent, films_list_base, DEBUG
 
 
 def convert_word_to_date(word):
@@ -62,40 +62,47 @@ def parse_func():
     for num, post_title in enumerate(post_titles):
         data_dict = {}
         movie_title = post_title.text.strip()
-        if movie_title.lower().find('сериал') == -1:
-            data = datas[num].find('span', {'class': 'cell'})
-            link = post_title.find('a')['href']
-            data_dict['Название:'] = movie_title.replace(':', '.')
-            data_dict['Рейтинг:'] = frate_kps[num].text
-            dt, tm = data.text.strip().split(', ')
-            data_dict['Опубликовано:'] = f'{convert_word_to_date(dt)}, {tm}'
-            data_dict['url:'] = link
+        # if movie_title.lower().find('сериал') == -1:
+        data = datas[num].find('span', {'class': 'cell'})
+        link = post_title.find('a')['href']
+        data_dict['Название:'] = movie_title.replace(':', '.')
+        data_dict['Рейтинг:'] = frate_kps[num].text
+        dt, tm = data.text.strip().split(', ')
+        data_dict['Опубликовано:'] = f'{convert_word_to_date(dt)}, {tm}'
+        data_dict['url:'] = link
 
-            # Актеры
-            post_story = post_stories[num]
-            for b in post_story.find_all('b'):
-                key = b.text.strip()
-                value = []
-                for sibling in b.next_siblings:
-                    if sibling.name == 'br':
-                        break
-                    if sibling.name == 'a':
-                        value.append(sibling.text)
-                    elif isinstance(sibling, str):
-                        value.append(sibling.strip())
-                line = []
-                for val in value:
-                    if val not in ['', ',']:
-                        line.append(val)
-                data_dict[key] = ', '.join(line)
+        # Актеры
+        post_story = post_stories[num]
+        for b in post_story.find_all('b'):
+            key = b.text.strip()
+            value = []
+            for sibling in b.next_siblings:
+                if sibling.name == 'br':
+                    break
+                if sibling.name == 'a':
+                    value.append(sibling.text)
+                elif isinstance(sibling, str):
+                    value.append(sibling.strip())
+            line = []
+            for val in value:
+                if val not in ['', ',']:
+                    line.append(val)
+            data_dict[key] = ', '.join(line)
 
-            if data_dict := films_list(data_dict):
-                telegram_sender(data_dict)
+        if data_dict := films_list(data_dict):
+            telegram_sender(data_dict)
 
 
 if __name__ == '__main__':
-    # while True:
-    #     parse_func()
-    #     time.sleep(1800)
+    if DEBUG:
+        parse_func()
+    else:
+        DELAY = 3600
+        try:
+            DELAY = int(os.getenv("DELAY"))
+        except:
+            pass
 
-    parse_func()
+        while True:
+            parse_func()
+            time.sleep(DELAY)

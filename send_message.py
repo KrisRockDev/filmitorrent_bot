@@ -15,7 +15,6 @@ CHAT_ID = os.getenv("CHAT_ID")
 # ic(CHAT_ID)
 
 
-
 # Данные фильма
 data_dict = {
     'poster': 'http://filmitorrent.net/uploads/posts/2024-12/thumbs/1735547056_9082b1712a.jpg',
@@ -33,6 +32,7 @@ data_dict = {
     'Страна:': 'Россия'
 }
 
+
 def build_message(data):
     """Собирает текст сообщения из словаря данных."""
     return (
@@ -42,11 +42,12 @@ def build_message(data):
         f"🌍 Страна: {data['Страна:']}\n"
         f"⭐️ Рейтинг: {data['Рейтинг:']}\n"
         f"🎥 Режиссер: {data['Режиссер:']}\n"
-        f"👤 Актеры: {data['Актеры:']}\n"
+        f"🤡 Актеры: {data['Актеры:']}\n"
         f"🎭 Жанр: {data['Жанр:']}\n"
-        f"🔗 <a href='{data['url:']}'>Подробнее</a>\n"
-        f"🗓 Опубликовано: {data['Опубликовано:']}\n"
+        f"🔗 <a href='{data['url:']}'>Сылка на страницу с фильмом</a>\n"
+        f"🗓 Опубликовано: {data['Дата публикации:']}\n"
     )
+
 
 def download_file(url, save_path):
     """Скачивает файл по ссылке."""
@@ -60,6 +61,7 @@ def download_file(url, save_path):
     except Exception as e:
         ic(f"Error downloading file from {url}: {e}")
         return None
+
 
 def send_photo_with_caption(bot_token, chat_id, message, poster_url):
     """Отправляет сообщение с текстом и постером в Telegram."""
@@ -86,6 +88,7 @@ def send_photo_with_caption(bot_token, chat_id, message, poster_url):
     else:
         ic("Постер не найден или не скачан.")
 
+
 def send_torrent_file(bot_token, chat_id, torrent_url):
     """Отправляет торрент-файл в Telegram."""
     send_document_url = f"https://api.telegram.org/bot{bot_token}/sendDocument"
@@ -107,6 +110,7 @@ def send_torrent_file(bot_token, chat_id, torrent_url):
     else:
         ic("Торрент-файл не найден или не скачан.")
 
+
 def telegram_sender(data_dict):
     # Построение сообщения
     message = build_message(data_dict)
@@ -115,11 +119,30 @@ def telegram_sender(data_dict):
     poster_url = data_dict['poster']
     torrent_url = data_dict['torrent_file']
 
-    # Отправка фото с описанием
-    send_photo_with_caption(BOT_TOKEN, CHAT_ID, message, poster_url)
+    if not os.path.exists(users_file):
+        with open(file=users_file, mode='w', encoding='utf8') as f:
+            f.write('')
 
-    # Отправка торрент-файла
-    send_torrent_file(BOT_TOKEN, CHAT_ID, torrent_url)
+    with open(file=users_file, mode='r', encoding='utf8') as f:
+        users = f.read()
+        if '\n' in users:
+            users = users.strip().split('\n')
+
+    users_list = []
+    for u in users:
+        if u != '':
+            users_list.append(u)
+
+    USERS = [CHAT_ID, ] + users_list
+    if ',' in CHAT_ID:
+        USERS = CHAT_ID.replace(' ', '').split(',')
+
+    # Отправка фото и файл с описанием
+    for USER in list(set(USERS)):
+        send_photo_with_caption(BOT_TOKEN, USER, message, poster_url)
+        send_torrent_file(BOT_TOKEN, USER, torrent_url)
+        print(f"Пользователю {USER} отправлено сообщение о фильме {data_dict['Название:']}")  # ic(f"Сообщение отправлено пользователю {USER}")
+
 
 if __name__ == "__main__":
     telegram_sender(data_dict)
