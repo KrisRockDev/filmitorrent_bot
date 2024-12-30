@@ -103,6 +103,7 @@ if __name__ == '__main__':
         except:
             pass
 
+        ic(DELAY)
         while True:
             parse_func()
             time.sleep(DELAY)
