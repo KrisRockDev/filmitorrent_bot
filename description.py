@@ -7,7 +7,13 @@ def generate_description(lst, des_file):
         for file_path in lst:
             with open(file_path, mode="r", encoding="utf-8") as file:
                 text = file.read()
-                f.write(f"{file_path.replace(os.getcwd(), '')}\n```{text}```\n\n")
+                tp = ''
+                type_file = {
+                    ".py" : "Python",
+                }
+                if file_path.endswith(".py"):
+                    tp = type_file[".py"]
+                f.write(f"{file_path.replace(os.getcwd(), '')}\n```{tp}\n{text}\n```\n\n")
 
 def get_ignor(current_directory):
     file = os.path.join(current_directory, '.gitignore')
