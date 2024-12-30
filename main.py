@@ -3,6 +3,7 @@ import requests
 import datetime
 import os
 from icecream import ic
+import time
 
 DIR = r'd:\filmtorrent'
 
@@ -144,13 +145,11 @@ def parse_func():
 
             films_list(data_dict)
             ic(data_dict)
-            # for data_item in data_dict:
-            #     print(data_item)
-
-            # create_dir(data_dict, filmitorrent)
-            # break
-            # ic(data_dict)
 
 
 if __name__ == '__main__':
+    # while True:
+    #     parse_func()
+    #     time.sleep(1800)
+
     parse_func()
