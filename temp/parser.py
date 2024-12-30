@@ -11,7 +11,7 @@ import requests
 
 def send_message(txt, image_path):
     # Замените 'YOUR_BOT_TOKEN' на реальный токен вашего бота
-    TOKEN = '6691795210:AAEsBu3kSyKYCaWU1zBv8bZUon08PTMbzGs'
+    TOKEN = ''
 
     # Замените 'chat_id' на ID чата, в который вы хотите отправить сообщение
     chat_id = [

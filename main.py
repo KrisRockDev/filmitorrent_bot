@@ -78,9 +78,32 @@ def create_dir(data_dict, filmitorrent):
         save_pic(data_dict['url:'], filmitorrent, folder_dir)
 
 
-def parse_func():
-    # Для парсинга этого блока с помощью Python вы можете использовать библиотеку BeautifulSoup. Вот пример кода для парсинга этого блока:
+def films_list(data_dict):
+    url = data_dict['url:']
+    films_list_base = 'films_list.txt'
 
+    if not os.path.exists(films_list_base):
+        with open(file=films_list_base, mode='w', encoding='utf8') as f:
+            f.write('')
+
+    with open(file=films_list_base, mode='r', encoding='utf8') as f:
+        lst = f.read().strip()
+        lst = lst.split('\n')
+
+    if url not in lst:
+        lst.append(url)
+        if len(lst) > 20:
+            lst = lst[-20:]
+            with open(file=films_list_base, mode='w', encoding='utf8') as f:
+                f.write('\n'.join(lst) + '\n')
+        else:
+            with open(file=films_list_base, mode='a', encoding='utf8') as f:
+                f.write(url + '\n')
+
+        # send_message(data_dict)
+
+
+def parse_func():
     filmitorrent = 'http://filmitorrent.net/'
     response = requests.get(filmitorrent)
     soup = BeautifulSoup(response.text, 'html.parser')
@@ -90,25 +113,19 @@ def parse_func():
     datas = soup.find_all('div', {'class': 'data'})
     post_titles = soup.find_all('div', {'class': 'post-title'})
 
-
     for num, post_title in enumerate(post_titles):
         data_dict = {}
         movie_title = post_title.text.strip()
         if movie_title.lower().find('сериал') == -1:
             data = datas[num].find('span', {'class': 'cell'})
-            # print(f'Название: {movie_title}\nРейтинг: {frate_kps[num].text}')
-            # print(f'Опубликовано: {data.text.strip()}')
-
             link = post_title.find('a')['href']
-            # print(f'url: {link}')
-
             data_dict['Название:'] = movie_title.replace(':', '.')
             data_dict['Рейтинг:'] = frate_kps[num].text
             data_dict['Опубликовано:'] = data.text.strip()
             data_dict['url:'] = link
 
+            # Актеры
             post_story = post_stories[num]
-
             for b in post_story.find_all('b'):
                 key = b.text.strip()
                 value = []
@@ -125,13 +142,14 @@ def parse_func():
                         line.append(val)
                 data_dict[key] = ', '.join(line)
 
-            # ic(data_dict)
+            films_list(data_dict)
+            ic(data_dict)
             # for data_item in data_dict:
             #     print(data_item)
 
             # create_dir(data_dict, filmitorrent)
             # break
-            ic(data_dict)
+            # ic(data_dict)
 
 
 if __name__ == '__main__':
