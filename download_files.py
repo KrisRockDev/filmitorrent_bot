@@ -18,7 +18,7 @@ def get_urls_bin_files(data_dict):
         # Сохранить изображение (постер) в файл
         data_dict['poster'] = filmitorrent[:-1] + img_src
     except Exception as ex:
-        downloads_error += f'"[Ошика загрузки постера]" {ex}'
+        downloads_error += f'"[Ошибка загрузки постера]" {ex}'
 
     # Получить ссылки на файлы *.torrent
     try:
@@ -38,6 +38,6 @@ def get_urls_bin_files(data_dict):
 
         data_dict['torrent_file'] = filmitorrent[:-1] + torrent_file
     except Exception as ex:
-        downloads_error += f'"[Ошика загрузки торент-файла]" {ex}'
+        downloads_error += f'"[Ошибка загрузки торрент-файла]" {ex}'
 
     return data_dict
