@@ -61,8 +61,8 @@ def build_message(data):
         f"🎥 Режиссер: {data['Режиссер:']}\n"
         f"🤡 Актеры: {data['Актеры:']}\n"
         f"🎭 Жанр: {data['Жанр:']}\n"
-        f"🔗 <a href='{data['url:']}'>Ссылка на страницу с фильмом</a>\n"
         f"🗓 Дата публикации: {data['Опубликовано:']}\n"
+        f"🔗 <a href='{data['url:']}'>Подробнее</a>\n"
     )
 
 
@@ -106,18 +106,28 @@ def send_photo_with_caption(bot_token, chat_id, message, poster_url):
         ic("Постер не найден или не скачан.")
 
 
-def send_torrent_file(bot_token, chat_id, torrent_url):
+def send_torrent_file(bot_token, chat_id, torrent_url, file_name):
     """Отправляет торрент-файл в Telegram."""
     send_document_url = f"https://api.telegram.org/bot{bot_token}/sendDocument"
 
+    for _ in range(10):
+        rep_list = [
+            '?', '/', r'\\'[-1], ':', '*', '"', '<', '>', '|', ' ', '__'
+        ]
+
+        for simbol in rep_list:
+            file_name = file_name.replace(simbol, '_')
+
     # Скачиваем торрент-файл
-    torrent_path = download_file(torrent_url, "file.torrent")
+    torrent_path = download_file(torrent_url, f"{file_name}.torrent")
     if torrent_path:
         with open(torrent_path, "rb") as torrent_file:
             try:
                 response = requests.post(
                     send_document_url,
-                    data={"chat_id": chat_id},
+                    data={
+                        "chat_id": chat_id,
+                    },
                     files={"document": torrent_file}
                 )
                 # ic("Torrent response:", response.status_code, response.text)
@@ -157,8 +167,9 @@ def telegram_sender(data_dict):
     # Отправка фото и файл с описанием
     for USER in list(set(USERS)):
         send_photo_with_caption(BOT_TOKEN, USER, message, poster_url)
-        send_torrent_file(BOT_TOKEN, USER, torrent_url)
-        print(f"Пользователю {USER} отправлено сообщение о фильме {data_dict['Название:']}")  # ic(f"Сообщение отправлено пользователю {USER}")
+        send_torrent_file(BOT_TOKEN, USER, torrent_url, data_dict['Название:'])
+        print(
+            f"Пользователю {USER} отправлено сообщение о фильме {data_dict['Название:']}")  # ic(f"Сообщение отправлено пользователю {USER}")
 
 
 if __name__ == "__main__":
