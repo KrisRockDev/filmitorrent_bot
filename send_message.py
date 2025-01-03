@@ -112,7 +112,7 @@ def send_torrent_file(bot_token, chat_id, torrent_url, file_name):
 
     for _ in range(10):
         rep_list = [
-            '?', '/', r'\\'[-1], ':', '*', '"', '<', '>', '|', ' ', '__'
+            '?', '/', r'\\'[-1], ':', '*', '"', '<', '>', '|', ' ', '__', '_ ', ' _',
         ]
 
         for simbol in rep_list:
