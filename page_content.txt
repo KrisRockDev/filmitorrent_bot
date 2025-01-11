@@ -1,0 +1,907 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml ">
+  <head> 
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>Скачать новинки через торрент в хорошем качестве бесплатно!</title>
+<meta name="description" content="Скачать новинки с торрента бесплатно без регистрации можно на нашем сайте! Быстро и в хорошем качестве." />
+<meta name="keywords" content="filmitorrent, utorr.xyz, torrminator, torrfan.org, торрент, скачать, бесплатно, хорошее, качество, новинки, кино, 2023, 2024, новые, torrent, загрузить, лучшее, HD, 1080" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://filmitorrent.net/engine/opensearch.php" title="Скачать новинки через торрент в хорошем качестве бесплатно!" />
+
+<script type="text/javascript" src="/engine/classes/min/index.php?charset=windows-1251&amp;g=general&amp;5"></script>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon"> 
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link media="screen" href="/templates/blue/css/style.css?v=5" type="text/css" rel="stylesheet" />
+<link media="screen" href="/templates/blue/css/engine.css" type="text/css" rel="stylesheet" />    
+ <link media="screen" href="/templates/blue/style/orating.css" type="text/css" rel="stylesheet" /> 
+<link media="screen" href="/templates/blue/field_search/style/filter-xf.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="/templates/blue/js/orating_pack.js"></script>
+<script type="text/javascript" src="/templates/blue/js/jquery.upScrollButton.js"></script>
+
+    
+    
+      <script type="text/javascript" src="https://cdnwidget.simplejsmenu.com/public/lib.en.min.js"></script>
+    <ins id="pm_union"
+         data-partner_id="7325351"
+         data-add_types="brand"
+         data-source_url=""></ins>
+    
+</head>
+
+<body>
+    
+<div id="loading-layer" style="display:none"><div id="loading-layer-text">Загрузка. Пожалуйста, подождите...</div></div>
+<script language="javascript" type="text/javascript">
+<!--
+var dle_root       = '/';
+var dle_admin      = '';
+var dle_login_hash = '';
+var dle_group      = 5;
+var dle_skin       = 'blue';
+var dle_wysiwyg    = 'no';
+var quick_wysiwyg  = '0';
+var dle_act_lang   = ["Да", "Нет", "Ввод", "Отмена", "Сохранить"];
+var menu_short     = 'Быстрое редактирование';
+var menu_full      = 'Полное редактирование';
+var menu_profile   = 'Просмотр профиля';
+var menu_send      = 'Отправить сообщение';
+var menu_uedit     = 'Админцентр';
+var dle_info       = 'Информация';
+var dle_confirm    = 'Подтверждение';
+var dle_prompt     = 'Ввод информации';
+var dle_req_field  = 'Заполните все необходимые поля';
+var dle_del_agree  = 'Вы действительно хотите удалить? Данное действие невозможно будет отменить';
+var dle_complaint  = 'Укажите текст вашей жалобы для администрации:';
+var dle_big_text   = 'Выделен слишком большой участок текста.';
+var dle_orfo_title = 'Укажите комментарий для администрации к найденной грамматической ошибке';
+var dle_p_send     = 'Отправить';
+var dle_p_send_ok  = 'Уведомление успешно отправлено';
+var dle_save_ok    = 'Изменения успешно сохранены.';
+var dle_del_news   = 'Удалить статью';
+var allow_dle_delete_news   = false;
+//-->
+</script>
+<div id="container">
+   
+<div id="block2">
+  <div id="day"><script type="text/javascript">
+var mydate=new Date() 
+var year=mydate.getYear() 
+if (year < 1000) year+=1900 
+var day=mydate.getDay() 
+var month=mydate.getMonth() 
+var daym=mydate.getDate() 
+if (daym<10) 
+daym="0"+daym 
+var dayarray=new Array("Воскресенье","Понедельник","Вторник","Среда","Четверг","Пятница","Суббота") 
+var montharray=new Array("января","февраля","марта","апреля","мая","июня","июля","августа","сентября","октября","ноября","декабря") 
+document.write(""+dayarray[day]+", "+daym+" "+montharray[month]+" "+year+" года") 
+</script>
+  </div>
+  
+  
+   <div class="searchblock">
+         
+      <ul>
+    
+    <form action="/index.php" method="get">
+    <input type="hidden" name="do" value="search" />
+    <input type="hidden" name="subaction" value="search" />
+    
+    <li><input id="story" name="story" type="text" value="Поиск по сайту" onfocus='if (this.value == "Поиск по сайту") { this.value=""; }' onblur='if (this.value == "") { this.value="Поиск по сайту"; }' class="searchform"></li>
+    <li class="searchbt"><input title="Найти" alt="Найти" type="image" src="/templates/blue/images/spacer.gif" /></li>
+    
+    </form>
+    
+    </ul> 
+       
+  </div> 
+  
+
+</div> 
+
+  <div class="login">
+   
+
+<ul class="loginmenu">
+<li class="loginlink"><a href="https://filmitorrent.net/index.php?do=register" style="none">Регистрация</a></li>
+<form style="float:left;" method="post" action=''>
+<input name="login" type="hidden" id="login" value="submit" />
+<li class="loginbt"><input class="field" type="text" name="login_name" style="background:transparent;" value="..." onFocus="if(this.value!='') this.value=''" onBlur="if(this.value=='') this.value='...'">
+</li>
+<div class="passwordbt"><input class="field"  type="password" name="login_password" style="background:transparent;" value="Пароль" onFocus="if(this.value!='') this.value=''" onBlur="if(this.value=='') this.value='Пароль'">
+</div>
+&nbsp;<input class="enter" onclick="submit();" name="image" type="submit" value="" alt="Login">
+<input type="checkbox" name="login_not_save" id="login_not_save" value="1"/><label for="login_not_save"><font color="#4ecc51">&nbsp;Чужой компьютер</font></label>
+</form>
+
+</ul>
+
+
+  </div>
+  
+  <div class="speedbar">
+<span id='dle-speedbar'><a href="https://filmitorrent.net/">Торрент новинки</a></span>
+  </div>  
+  
+  <div id="content">
+  <div id="right">
+    
+         
+       <div class="block">
+       <div class="colorstrip">Навигация по жанрам</div>
+       <ul class="menu">
+         <li><a href="/tags/%D0%EE%F1%F1%E8%FF/">Наше кино</a></li>
+         <li><a href="/tags/%EC%E5%EB%EE%E4%F0%E0%EC%E0/">Мелодрама</a></li>
+         <li><a href="/tags/%E0%ED%E8%EC%E5/">Аниме</a></li>
+         <li><a href="/tags/%EC%F3%EB%FC%F2%F4%E8%EB%FC%EC/">Мультфильм</a></li>
+         <li><a href="/tags/%E1%E8%EE%E3%F0%E0%F4%E8%FF/">Биография</a></li>
+         <li><a href="/tags/%EC%F3%E7%FB%EA%E0/">Музыка</a></li>
+         <li><a href="/tags/%E1%EE%E5%E2%E8%EA/">Боевик</a></li>
+         <li><a href="/tags/%EC%FE%E7%E8%EA%EB/">Мюзикл</a></li>
+         <li><a href="/tags/%E2%E5%F1%F2%E5%F0%ED/">Вестерн</a></li>
+         <li><a href="/tags/%EF%F0%E8%EA%EB%FE%F7%E5%ED%E8%FF/">Приключения</a></li>
+         <li><a href="/tags/%E2%EE%E5%ED%ED%FB%E9/">Военный</a></li>
+         <li><a href="/tags/%F1%E5%EC%E5%E9%ED%FB%E9/">Семейный</a></li>
+         <li><a href="/tags/%E4%E5%F2%E5%EA%F2%E8%E2/">Детектив</a></li>
+         <li><a href="/serial/">Сериалы</a></li>
+         <li><a href="/tags/%E4%EE%EA%F3%EC%E5%ED%F2%E0%EB%FC%ED%FB%E9/">Документальный</a></li>
+         <li><a href="/tags/%F1%EF%EE%F0%F2/">Спорт</a></li>
+         <li><a href="/tags/%E4%F0%E0%EC%E0/">Драма</a></li>
+         <li><a href="/tags/%F2%F0%E8%EB%EB%E5%F0/">Триллер</a></li>
+         <li><a href="/tags/%E8%F1%F2%EE%F0%E8%FF/">История</a></li>
+         <li><a href="/tags/%F3%E6%E0%F1%FB/">Ужасы</a></li>
+         <li><a href="/tags/%EA%EE%EC%E5%E4%E8%FF/">Комедия</a></li>
+         <li><a href="/tags/%F4%E0%ED%F2%E0%F1%F2%E8%EA%E0/">Фантастика</a></li>
+         <li><a href="/tags/%EA%F0%E8%EC%E8%ED%E0%EB/">Криминал</a></li>
+         <li><a href="/tags/%F4%FD%ED%F2%E5%E7%E8/">Фэнтези</a></li>         
+              <div class="clear"></div>
+       </ul>
+
+       </div>
+       
+        <div class="block">
+       <div class="colorstrip">Меню</div>
+       <ul class="menu">         
+         <li><a href="/kin-2025/">Новинки 2025</a></li>     
+         <li><a href="/top03-2024/">&#127942; ТОП 2024</a></li>
+         <li><a href="/top253/">Топ 250 КиноПоиск</a></li>
+         <li><a href="/bests01-2023/">&#127942; Фильмы 2023</a></li>
+         
+         <li class="fraktx"><a href="https://filmitorrent2.site" target="_blank" data-leech="noreplace">filmitorrent</a></li>
+         
+         <div class="clear"></div>
+       </ul>
+       </div>           
+                           
+        <div class="colorblock">
+           
+       <div class="whitestrip">Лучшие фильмы за месяц</div>
+       <ul class="topnews">
+       <!--noindex--><li><a href="https://filmitorrent.net/drama/5389-graf-monte-kristo-2024.html">Граф Монте-Кристо</a></li> 
+
+<li><a href="https://filmitorrent.net/fantastika/5416-venom-posledniy-tanec-2024.html">Веном: Последний танец</a></li> 
+
+<li><a href="https://filmitorrent.net/serial/5390-pingvin-serial-2024.html">Пингвин (сериал)</a></li> 
+
+<li><a href="https://filmitorrent.net/fantasy/5423-missiya-krasnyy-2024.html">Миссия: Красный</a></li> 
+
+<li><a href="https://filmitorrent.net/serial/5421-den-shakala-serial-2024.html">День Шакала (сериал)</a></li> 
+
+<li><a href="https://filmitorrent.net/boevik/5420-ruchnaya-klad-2024.html">Ручная кладь</a></li> 
+
+<li><a href="https://filmitorrent.net/serial/5411-lihie-serial-2024.html">Лихие (сериал)</a></li> 
+
+<li><a href="https://filmitorrent.net/uzhas/5417-eretik-2024.html">Еретик</a></li> 
+
+<li><a href="https://filmitorrent.net/mult/5426-sekretnyy-uroven-serial-2024.html">Секретный уровень (мультсериал)</a></li> 
+
+<li><a href="https://filmitorrent.net/triller/5407-prisyazhnyy-nomer-dva-2024.html">Присяжный номер два</a></li> 
+
+<li><a href="https://filmitorrent.net/uzhas/5394-ulybka-2-2024.html">Улыбка 2</a></li> 
+
+<li><a href="https://filmitorrent.net/drama/5403-ruki-vverh-2024.html">Руки Вверх!</a></li> 
+
+<li><a href="https://filmitorrent.net/boevik/5438-gladiator-2-2024.html">Гладиатор 2</a></li> 
+
+<li><a href="https://filmitorrent.net/serial/5427-dyuna-prorochestvo-serial-2024.html">Дюна: Пророчество (сериал)</a></li> 
+
+<li><a href="https://filmitorrent.net/triller/5434-bezmolvnoe-bratstvo-2024.html">Безмолвное братство</a></li> 
+
+<li><a href="https://filmitorrent.net/boevik/5409-agent-na-uikend-2024.html">Агент на уикенд</a></li> 
+
+<li><a href="https://filmitorrent.net/fantastika/5408-hischnye-zemli-2024.html">Хищные земли</a></li> 
+
+<!--/noindex-->       
+       </ul>
+       </div>
+         
+       
+    
+     
+    
+    
+   
+          
+   <!--  Блок для рекламы -->  
+      
+  <div class="colorstrip">Интересное</div>
+    <div class="block_c"><!--noindex--><!--/noindex-->
+       
+  </div>
+     
+   
+    
+      
+ 
+  </div>
+  
+  <div id="middle">
+     
+   <div class="nav">
+      <ul>
+          <li><a href="/">Главная</a></li>
+         <li> <a href="/help.html">Как тут качать?</a> </li>
+        <li> <a href="/top106/">ТОП 100</a> </li>
+        
+        <li> <a href="/?do=feedback">Обратная связь</a> </li>        
+        
+        <li> <a class="no-pop" href="#" onclick="javascript:ShowOrHide('filter-wrap');return false;">Фильтр</a></li>
+     </ul>
+    </div>
+  
+      
+   
+      
+   <style type="text/css">.filter-wrap {display: none;}</style>
+   <!--noindex-->
+<div class="filter-wrap no-pop" id="filter-wrap">
+<form class="fx-row filter-box" id="searchform" action="">
+  
+ <div class="fb-multi fb-sel">
+     <div class="fb-sect">
+       <select name="n.genre" multiple="multiple" data-placeholder="Выберите жанр">
+         <option value="боевик">Боевик</option>
+         <option value="биография">Биография</option>
+         <option value="вестерн">Вестерн</option>
+         <option value="военный">Военный</option>
+         <option value="детектив">Детектив</option>
+         <option value="драма">Драма</option>
+         <option value="история">История</option>
+         <option value="комедия">Комедия</option>
+         <option value="криминал">Криминал</option>
+         <option value="мелодрама">Мелодрама</option>                           
+         <option value="музыка">Музыка</option>
+         <option value="мультфильм">Мультфильм</option>
+         <option value="мюзикл">Мюзикл</option>
+         <option value="приключения">Приключения</option>
+         <option value="семейный">Семейный</option>
+         <option value="спорт">Спорт</option>
+         <option value="триллер">Триллер</option>
+         <option value="ужасы">Ужасы</option>
+         <option value="фантастика">Фантастика</option>
+         <option value="фэнтези">Фэнтези</option>
+       </select>
+     </div>
+     <div class="fb-sect">
+       <select name="n.country" multiple="multiple" data-placeholder="Выберите страну">
+         <option value="Россия">Россия</option>
+         <option value="СССР">СССР</option>
+         <option value="США">США</option>
+         <option value="Франция">Франция</option>
+         <option value="Испания">Испания</option>           
+         <option value="Великобритания">Англия</option>
+         <option value="Германия">Германия</option>         
+         <option value="Италия">Италия</option>
+         <option value="Индия">Индия</option>
+         <option value="Канада">Канада</option>
+         <option value="Китай">Китай</option>
+         <option value="Корея Южная">Южная Корея</option>
+         <option value="Япония">Япония</option>
+       </select> 
+     </div>
+ </div>
+
+   
+ <div class="fb-range">
+  <div class="fb-sect">
+  <input type="text" name="r-year" id="year" />    
+   </div>
+   <div class="fb-sect">
+      <input type="text" name="r-kp_rating" id="kp" />
+   </div>
+ </div>
+  
+
+ <div class="fb-single">
+   <div class="fb-sect fb-sel">
+     <select name="order_by" id="sortby" data-placeholder="По рейтингу">
+       <option value="rating">По рейтингу</option>
+       <option value="date">По дате</option>
+       <option value="comm_num">Комментариям</option>
+     </select>
+   </div>     
+   <div class="fb-sect fb-sel">
+     <select name="order" id="order" data-placeholder="По убыванию">
+       <option value="desc">По убыванию</option>
+       <option value="asc">По возрастанию</option>
+     </select>
+   </div>
+ </div>
+ <div class="fb-submit">
+    <input type="button" data-fieldsearch="submit" value="Поиск">
+    <input type="button" data-fieldsearch="reset" value="Очистить">
+ </div>
+</form>
+</div>
+<!--/noindex-->
+    
+    <div id='dle-content'><div class="post">  
+<div class="post-title"><a href="https://filmitorrent.net/fantasy/5464-zlaya-skazka-o-vedme-zapada-2024.html"><!--noindex-->Злая: Сказка о ведьме Запада<!--/noindex--></a></div>
+<div class="data">
+<span class="cell">Вчера, 14:49</span>
+<span class="cell">Качество: HD</span>
+<span class="cell">Комментариев: 8</span>
+  <div class="orating no-pop" id="orating-5464">
+  <a href="#" class="orating_m" title="Фильм не нравится" onclick="orating(5464,0);return false;"></a>
+  <a href="#" class="orating_p" title="Фильм понравился" onclick="orating(5464,1);return false;"></a>
+<a href="#" class="orating_res" onclick="ostats(5464,1,true);return false;">-107</a>
+  </div>
+  
+  <div class="cell2">
+    <div class="frate frate-kp" data-text="kp">7.3</div>
+  </div>
+  
+
+</div>
+
+<div class="post-story"> 
+  <table width="100%">
+    <tr>
+      <td>
+        <img src="/uploads/posts/2025-01/1736423291_poster-121ef3424a.jpg" align="left" alt="Злая: Сказка о ведьме Запада" title="Злая: Сказка о ведьме Запада"><br>
+        <b>Жанр:</b> <a href="/tags/%EC%FE%E7%E8%EA%EB/">мюзикл</a>, <a href="/tags/%F4%FD%ED%F2%E5%E7%E8/">фэнтези</a>, <a href="/tags/%EC%E5%EB%EE%E4%F0%E0%EC%E0/">мелодрама</a><br>
+        <b>Страна:</b> <a href="/tags/%D1%D8%C0/">США</a>, <a href="/tags/%DF%EF%EE%ED%E8%FF/">Япония</a>, <a href="/tags/%CA%E0%ED%E0%E4%E0/">Канада</a>, <a href="/tags/%C8%F1%EB%E0%ED%E4%E8%FF/">Исландия</a>, <a href="/tags/%C2%E5%EB%E8%EA%EE%E1%F0%E8%F2%E0%ED%E8%FF/">Великобритания</a><br>   
+        
+        <b>Режиссер:</b> <a href="/tags/%C4%E6%EE%ED+%CC.+%D7%F3/">Джон М. Чу</a><br>       
+        <b>Актеры:</b> <a href="/tags/%D1%E8%ED%F2%E8%FF+%DD%F0%E8%E2%EE/">Синтия Эриво</a>, <a href="/tags/%C0%F0%E8%E0%ED%E0+%C3%F0%E0%ED%E4%E5/">Ариана Гранде</a>, <a href="/tags/%C4%E6%E5%F4%F4+%C3%EE%EB%E4%E1%EB%FE%EC/">Джефф Голдблюм</a>, <a href="/tags/%CC%E8%F8%E5%EB%FC+%C9%E5%EE/">Мишель Йео</a>, <a href="/tags/%C4%E6%EE%ED%E0%F2%E0%ED+%C1%E5%E9%EB%E8/">Джонатан Бейли</a>, <a href="/tags/%C8%F2%E0%ED+%D1%EB%E5%E9%F2%E5%F0/">Итан Слейтер</a>, <a href="/tags/%CC%E0%F0%E8%F1%F1%E0+%C1%EE%E4%E5/">Марисса Боде</a>, <a href="/tags/%CF%E8%F2%E5%F0+%C4%E8%ED%EA%EB%FD%E9%E4%E6/">Питер Динклэйдж</a>, <a href="/tags/%DD%ED%E4%E8+%CD%E0%E9%EC%E0%ED/">Энди Найман</a>, <a href="/tags/%CA%EE%F0%F2%ED%E8+%CC%FD%E9-%C1%F0%E8%E3%E3%F1/">Кортни Мэй-Бриггс</a><br>
+        <b>Время:</b> 2 ч 40 мин<br>
+        <b>Год:</b> <a href="/tags/2024/">2024</a><br>
+      </td>
+    </tr>
+  </table>
+  
+</div>
+     
+<div class="post-data">
+<ul>
+  
+  <li>Категория: <a href="https://filmitorrent.net/fantasy/">Фэнтези</a></li>
+  <li>Автор: <a onclick="ShowProfile('%C0%EC%EE%F0%E0%EB%FB%F7', 'https://filmitorrent.net/user/%C0%EC%EE%F0%E0%EB%FB%F7/', '0'); return false;" href="https://filmitorrent.net/user/%C0%EC%EE%F0%E0%EB%FB%F7/">Аморалыч</a></li>
+  <li></li>
+  
+  <li class="more"><a href="https://filmitorrent.net/fantasy/5464-zlaya-skazka-o-vedme-zapada-2024.html">Скачать торрент</a></li>
+</ul>
+</div>
+</div>
+<div class="post">  
+<div class="post-title"><a href="https://filmitorrent.net/drama/5463-lyubov-sovetskogo-soyuza-2024.html"><!--noindex-->Любовь Советского Союза<!--/noindex--></a></div>
+<div class="data">
+<span class="cell">8-01-2025, 19:03</span>
+<span class="cell">Качество: HD</span>
+<span class="cell">Комментариев: 11</span>
+  <div class="orating no-pop" id="orating-5463">
+  <a href="#" class="orating_m" title="Фильм не нравится" onclick="orating(5463,0);return false;"></a>
+  <a href="#" class="orating_p" title="Фильм понравился" onclick="orating(5463,1);return false;"></a>
+<a href="#" class="orating_res" onclick="ostats(5463,1,true);return false;">-25</a>
+  </div>
+  
+  <div class="cell2">
+    <div class="frate frate-kp" data-text="kp">6.7</div>
+  </div>
+  
+
+</div>
+
+<div class="post-story"> 
+  <table width="100%">
+    <tr>
+      <td>
+        <img src="/uploads/posts/2025-01/1736352206_poster-4c687d4b56.jpg" align="left" alt="Любовь Советского Союза" title="Любовь Советского Союза"><br>
+        <b>Жанр:</b> <a href="/tags/%E4%F0%E0%EC%E0/">драма</a><br>
+        <b>Страна:</b> <a href="/tags/%D0%EE%F1%F1%E8%FF/">Россия</a><br>   
+        <b>Слоган:</b> «Ты веришь в жизнь после любви?»<br>
+        <b>Режиссер:</b> <a href="/tags/%CD%E8%EA%E8%F2%E0+%C2%FB%F1%EE%F6%EA%E8%E9/">Никита Высоцкий</a>, <a href="/tags/%C8%EB%FC%FF+%CB%E5%E1%E5%E4%E5%E2/">Илья Лебедев</a>, <a href="/tags/%C4%EC%E8%F2%F0%E8%E9+%C8%EE%F1%E8%F4%EE%E2/">Дмитрий Иосифов</a><br>       
+        <b>Актеры:</b> <a href="/tags/%C0%ED%E3%E5%EB%E8%ED%E0+%D1%F2%F0%E5%F7%E8%ED%E0/">Ангелина Стречина</a>, <a href="/tags/%D0%EE%EC%E0%ED+%C2%E0%F1%E8%EB%FC%E5%E2/">Роман Васильев</a>, <a href="/tags/%CA%E8%F0%E8%EB%EB+%CA%F3%E7%ED%E5%F6%EE%E2/">Кирилл Кузнецов</a>, <a href="/tags/%D0%EE%EC%E0%ED+%CC%E0%E4%FF%ED%EE%E2/">Роман Мадянов</a>, <a href="/tags/%C0%EB%E5%EA%F1%E0%ED%E4%F0+%D3%F1%F2%FE%E3%EE%E2/">Александр Устюгов</a>, <a href="/tags/%C8%E3%EE%F0%FC+%CF%E5%F2%F0%E5%ED%EA%EE/">Игорь Петренко</a>, <a href="/tags/%C0%EB%B8%ED%E0+%C1%E0%E1%E5%ED%EA%EE/">Алёна Бабенко</a>, <a href="/tags/%C2%EB%E0%E4%E8%EC%E8%F0+%C2%E8%ED%EE%E3%F0%E0%E4%EE%E2/">Владимир Виноградов</a>, <a href="/tags/%CC%E0%EA%F1%E8%EC+%CA%E5%F0%E8%ED/">Максим Керин</a>, <a href="/tags/%D1%EE%F4%FC%FF+%DD%F0%ED%F1%F2/">Софья Эрнст</a><br>
+        <b>Время:</b> 2 ч 28 мин<br>
+        <b>Год:</b> <a href="/tags/2024/">2024</a><br>
+      </td>
+    </tr>
+  </table>
+  
+</div>
+     
+<div class="post-data">
+<ul>
+  
+  <li>Категория: <a href="https://filmitorrent.net/drama/">Драма</a></li>
+  <li>Автор: <a onclick="ShowProfile('%C0%EC%EE%F0%E0%EB%FB%F7', 'https://filmitorrent.net/user/%C0%EC%EE%F0%E0%EB%FB%F7/', '0'); return false;" href="https://filmitorrent.net/user/%C0%EC%EE%F0%E0%EB%FB%F7/">Аморалыч</a></li>
+  <li></li>
+  
+  <li class="more"><a href="https://filmitorrent.net/drama/5463-lyubov-sovetskogo-soyuza-2024.html">Скачать торрент</a></li>
+</ul>
+</div>
+</div>
+<div class="post">  
+<div class="post-title"><a href="https://filmitorrent.net/mult/5462-techenie-2024.html"><!--noindex-->Течение<!--/noindex--></a></div>
+<div class="data">
+<span class="cell">7-01-2025, 16:33</span>
+<span class="cell">Качество: HD</span>
+<span class="cell">Комментариев: 14</span>
+  <div class="orating no-pop" id="orating-5462">
+  <a href="#" class="orating_m" title="Фильм не нравится" onclick="orating(5462,0);return false;"></a>
+  <a href="#" class="orating_p" title="Фильм понравился" onclick="orating(5462,1);return false;"></a>
+<a href="#" class="orating_res" onclick="ostats(5462,1,true);return false;">+220</a>
+  </div>
+  
+  <div class="cell2">
+    <div class="frate frate-kp" data-text="kp">8.1</div>
+  </div>
+  
+
+</div>
+
+<div class="post-story"> 
+  <table width="100%">
+    <tr>
+      <td>
+        <img src="/uploads/posts/2025-01/1736256765_poster-b11807c70b.jpg" align="left" alt="Течение" title="Течение"><br>
+        <b>Жанр:</b> <a href="/tags/%EC%F3%EB%FC%F2%F4%E8%EB%FC%EC/">мультфильм</a>, <a href="/tags/%EF%F0%E8%EA%EB%FE%F7%E5%ED%E8%FF/">приключения</a>, <a href="/tags/%F4%E0%ED%F2%E0%F1%F2%E8%EA%E0/">фантастика</a>, <a href="/tags/%F1%E5%EC%E5%E9%ED%FB%E9/">семейный</a><br>
+        <b>Страна:</b> <a href="/tags/%CB%E0%F2%E2%E8%FF/">Латвия</a>, <a href="/tags/%C1%E5%EB%FC%E3%E8%FF/">Бельгия</a>, <a href="/tags/%D4%F0%E0%ED%F6%E8%FF/">Франция</a><br>   
+        
+        <b>Режиссер:</b> <a href="/tags/%C3%E8%ED%F2%F1+%C7%E8%EB%FC%E1%E0%EB%EE%E4%E8%F1/">Гинтс Зильбалодис</a><br>       
+        
+        <b>Время:</b> 1 ч 25 мин<br>
+        <b>Год:</b> <a href="/tags/2024/">2024</a><br>
+      </td>
+    </tr>
+  </table>
+  
+</div>
+     
+<div class="post-data">
+<ul>
+  
+  <li>Категория: <a href="https://filmitorrent.net/mult/">Мультфильмы</a></li>
+  <li>Автор: <a onclick="ShowProfile('%C0%EC%EE%F0%E0%EB%FB%F7', 'https://filmitorrent.net/user/%C0%EC%EE%F0%E0%EB%FB%F7/', '0'); return false;" href="https://filmitorrent.net/user/%C0%EC%EE%F0%E0%EB%FB%F7/">Аморалыч</a></li>
+  <li></li>
+  
+  <li class="more"><a href="https://filmitorrent.net/mult/5462-techenie-2024.html">Скачать торрент</a></li>
+</ul>
+</div>
+</div>
+<div class="post">  
+<div class="post-title"><a href="https://filmitorrent.net/drama/5461-v-plenu-stihii-2024.html"><!--noindex-->В плену стихии<!--/noindex--></a></div>
+<div class="data">
+<span class="cell">7-01-2025, 16:25</span>
+<span class="cell">Качество: HD</span>
+<span class="cell">Комментариев: 7</span>
+  <div class="orating no-pop" id="orating-5461">
+  <a href="#" class="orating_m" title="Фильм не нравится" onclick="orating(5461,0);return false;"></a>
+  <a href="#" class="orating_p" title="Фильм понравился" onclick="orating(5461,1);return false;"></a>
+<a href="#" class="orating_res" onclick="ostats(5461,1,true);return false;">+11</a>
+  </div>
+  
+  <div class="cell2">
+    <div class="frate frate-kp" data-text="kp">7.3</div>
+  </div>
+  
+
+</div>
+
+<div class="post-story"> 
+  <table width="100%">
+    <tr>
+      <td>
+        <img src="/uploads/posts/2025-01/1736256269_poster-4ef3049c29.jpg" align="left" alt="В плену стихии" title="В плену стихии"><br>
+        <b>Жанр:</b> <a href="/tags/%E4%F0%E0%EC%E0/">драма</a>, <a href="/tags/%EF%F0%E8%EA%EB%FE%F7%E5%ED%E8%FF/">приключения</a>, <a href="/tags/%F1%E5%EC%E5%E9%ED%FB%E9/">семейный</a><br>
+        <b>Страна:</b> <a href="/tags/%D1%D8%C0/">США</a><br>   
+        
+        <b>Режиссер:</b> <a href="/tags/%DD%ED%E4%F0%FE+%CA%E0%E9%F2%EB%E8%ED%E3%E5%F0/">Эндрю Кайтлингер</a><br>       
+        <b>Актеры:</b> <a href="/tags/%CB%FE%EA+%C4%FD%E2%E8%E4+%C1%EB%F3%EC%EC/">Люк Дэвид Блумм</a>, <a href="/tags/%C8%F2%E0%ED+%D1%EB%E5%E9%F2%E5%F0/">Итан Слейтер</a>, <a href="/tags/%CA%E5%E9%F2%EB%E8%ED+%D4%E8%F6%E4%E6%E5%F0%E0%EB%E4/">Кейтлин Фицджералд</a>, <a href="/tags/%CF%EE%EB+%D1%EF%E0%F0%EA%F1/">Пол Спаркс</a>, <a href="/tags/%C3%F0%E8%F4%F4%E8%ED+%D3%EE%EB%EB%E5%F1+%D5%E5%ED%EA%E5%EB/">Гриффин Уоллес Хенкел</a>, <a href="/tags/%C4%E8%ED+%CD%E8%F1%F2%E0%F2/">Дин Нистат</a>, <a href="/tags/%C1%E5%E9%F2%F1+%D3%E0%E9%EB%E4%E5%F0/">Бейтс Уайлдер</a>, <a href="/tags/%D3%FD%E9%ED+%CF%E0%E9%EB/">Уэйн Пайл</a>, <a href="/tags/%CC%FD%F2%F2%FC%FE+%C1%EB%F3%EC%EC/">Мэттью Блумм</a>, <a href="/tags/%DD%F8%EB%E8%ED+%C0%EB%E5%F1%F1%E8/">Эшлин Алесси</a><br>
+        <b>Время:</b> 1 ч 38 мин<br>
+        <b>Год:</b> <a href="/tags/2024/">2024</a><br>
+      </td>
+    </tr>
+  </table>
+  
+</div>
+     
+<div class="post-data">
+<ul>
+  
+  <li>Категория: <a href="https://filmitorrent.net/drama/">Драма</a></li>
+  <li>Автор: <a onclick="ShowProfile('%C0%EC%EE%F0%E0%EB%FB%F7', 'https://filmitorrent.net/user/%C0%EC%EE%F0%E0%EB%FB%F7/', '0'); return false;" href="https://filmitorrent.net/user/%C0%EC%EE%F0%E0%EB%FB%F7/">Аморалыч</a></li>
+  <li></li>
+  
+  <li class="more"><a href="https://filmitorrent.net/drama/5461-v-plenu-stihii-2024.html">Скачать торрент</a></li>
+</ul>
+</div>
+</div>
+<div class="post">  
+<div class="post-title"><a href="https://filmitorrent.net/mult/5459-uolles-i-gromit-samaya-dikaya-mest-2024.html"><!--noindex-->Уоллес и Громит: Самая дикая месть<!--/noindex--></a></div>
+<div class="data">
+<span class="cell">4-01-2025, 13:56</span>
+<span class="cell">Качество: HD</span>
+<span class="cell">Комментариев: 4</span>
+  <div class="orating no-pop" id="orating-5459">
+  <a href="#" class="orating_m" title="Фильм не нравится" onclick="orating(5459,0);return false;"></a>
+  <a href="#" class="orating_p" title="Фильм понравился" onclick="orating(5459,1);return false;"></a>
+<a href="#" class="orating_res" onclick="ostats(5459,1,true);return false;">+101</a>
+  </div>
+  
+  <div class="cell2">
+    <div class="frate frate-kp" data-text="kp">7.5</div>
+  </div>
+  
+
+</div>
+
+<div class="post-story"> 
+  <table width="100%">
+    <tr>
+      <td>
+        <img src="/uploads/posts/2025-01/1735988145_poster-2dcb0f1844.jpg" align="left" alt="Уоллес и Громит: Самая дикая месть" title="Уоллес и Громит: Самая дикая месть"><br>
+        <b>Жанр:</b> <a href="/tags/%EC%F3%EB%FC%F2%F4%E8%EB%FC%EC/">мультфильм</a>, <a href="/tags/%F4%E0%ED%F2%E0%F1%F2%E8%EA%E0/">фантастика</a>, <a href="/tags/%EA%EE%EC%E5%E4%E8%FF/">комедия</a>, <a href="/tags/%EF%F0%E8%EA%EB%FE%F7%E5%ED%E8%FF/">приключения</a>, <a href="/tags/%F1%E5%EC%E5%E9%ED%FB%E9/">семейный</a><br>
+        <b>Страна:</b> <a href="/tags/%C2%E5%EB%E8%EA%EE%E1%F0%E8%F2%E0%ED%E8%FF/">Великобритания</a>, <a href="/tags/%D4%F0%E0%ED%F6%E8%FF/">Франция</a><br>   
+        
+        <b>Режиссер:</b> <a href="/tags/%CC%E5%F0%EB%E8%ED+%CA%F0%EE%F1%F1%E8%ED%E3%FD%EC/">Мерлин Кроссингэм</a>, <a href="/tags/%CD%E8%EA+%CF%E0%F0%EA/">Ник Парк</a><br>       
+        <b>Актеры:</b> <a href="/tags/%C1%E5%ED+%D3%E0%E9%F2%F5%E5%E4/">Бен Уайтхед</a>, <a href="/tags/%CF%E8%F2%E5%F0+%CA%FD%E9/">Питер Кэй</a>, <a href="/tags/%CB%EE%F0%E5%ED+%CF%E0%F2%E5%EB/">Лорен Пател</a>, <a href="/tags/%D0%E8%F1+%D8%E5%F0%F1%EC%E8%F2/">Рис Шерсмит</a>, <a href="/tags/%C4%E0%E9%E0%ED+%CC%EE%F0%E3%E0%ED/">Дайан Морган</a>, <a href="/tags/%C0%E4%E6%EE%E0+%C0%ED%E4%EE%F5/">Аджоа Андох</a>, <a href="/tags/%CC%E0%E7%E7+%CA%F5%E0%ED/">Мазз Кхан</a>, <a href="/tags/%CB%E5%ED%ED%E8+%C3%E5%ED%F0%E8/">Ленни Генри</a>, <a href="/tags/%C2%E8%EA%F2%EE%F0%E8%FF+%DD%EB%EB%E8%EE%F2%F2/">Виктория Эллиотт</a>, <a href="/tags/%C4%E6%EE%ED+%D8%EF%E0%F0%EA%F1/">Джон Шпаркс</a><br>
+        <b>Время:</b> 1 ч 19 мин<br>
+        <b>Год:</b> <a href="/tags/2024/">2024</a><br>
+      </td>
+    </tr>
+  </table>
+  
+</div>
+     
+<div class="post-data">
+<ul>
+  
+  <li>Категория: <a href="https://filmitorrent.net/mult/">Мультфильмы</a></li>
+  <li>Автор: <a onclick="ShowProfile('%C0%EC%EE%F0%E0%EB%FB%F7', 'https://filmitorrent.net/user/%C0%EC%EE%F0%E0%EB%FB%F7/', '0'); return false;" href="https://filmitorrent.net/user/%C0%EC%EE%F0%E0%EB%FB%F7/">Аморалыч</a></li>
+  <li></li>
+  
+  <li class="more"><a href="https://filmitorrent.net/mult/5459-uolles-i-gromit-samaya-dikaya-mest-2024.html">Скачать торрент</a></li>
+</ul>
+</div>
+</div>
+<div class="post">  
+<div class="post-title"><a href="https://filmitorrent.net/serial/5457-pervyy-nomer-serial-2024.html"><!--noindex-->Первый номер (сериал)<!--/noindex--></a></div>
+<div class="data">
+<span class="cell">2-01-2025, 15:47</span>
+<span class="cell">Качество: HD</span>
+<span class="cell">Комментариев: 13</span>
+  <div class="orating no-pop" id="orating-5457">
+  <a href="#" class="orating_m" title="Фильм не нравится" onclick="orating(5457,0);return false;"></a>
+  <a href="#" class="orating_p" title="Фильм понравился" onclick="orating(5457,1);return false;"></a>
+<a href="#" class="orating_res" onclick="ostats(5457,1,true);return false;">+115</a>
+  </div>
+  
+  <div class="cell2">
+    <div class="frate frate-kp" data-text="kp">7.9</div>
+  </div>
+  
+
+</div>
+
+<div class="post-story"> 
+  <table width="100%">
+    <tr>
+      <td>
+        <img src="/uploads/posts/2025-01/1735821874_poster-faf7aa0539.jpg" align="left" alt="Первый номер (сериал)" title="Первый номер (сериал)"><br>
+        <b>Жанр:</b> <a href="/tags/%E4%F0%E0%EC%E0/">драма</a>, <a href="/tags/%EA%EE%EC%E5%E4%E8%FF/">комедия</a><br>
+        <b>Страна:</b> <a href="/tags/%D0%EE%F1%F1%E8%FF/">Россия</a><br>   
+        
+        <b>Режиссер:</b> <a href="/tags/%CA%EB%E8%EC+%CA%EE%E7%E8%ED%F1%EA%E8%E9/">Клим Козинский</a><br>       
+        <b>Актеры:</b> <a href="/tags/%C5%E2%E3%E5%ED%E8%E9+%D6%FB%E3%E0%ED%EE%E2/">Евгений Цыганов</a>, <a href="/tags/%CD%E0%E4%E5%E6%E4%E0+%CC%E8%F5%E0%EB%EA%EE%E2%E0/">Надежда Михалкова</a>, <a href="/tags/%CF%E0%E2%E5%EB+%C4%E5%F0%E5%E2%FF%ED%EA%EE/">Павел Деревянко</a>, <a href="/tags/%D0%E0%E2%F8%E0%ED%E0+%CA%F3%F0%EA%EE%E2%E0/">Равшана Куркова</a>, <a href="/tags/%C0%EB%E5%EA%F1%E0%ED%E4%F0%E0+%C1%EE%F0%F2%E8%F7/">Александра Бортич</a>, <a href="/tags/%C8%E4%E0+%C3%E0%EB%E8%F7/">Ида Галич</a>, <a href="/tags/%C0%EB%E5%EA%F1%E0%ED%E4%F0%E0+%D0%E5%E1%E5%ED%EE%EA/">Александра Ребенок</a>, <a href="/tags/%C8%E3%EE%F0%FC+%C2%E5%F0%ED%E8%EA/">Игорь Верник</a>, <a href="/tags/%C0%EB%E5%EA%F1%E0%ED%E4%F0+%D6%FB%EF%EA%E8%ED/">Александр Цыпкин</a>, <a href="/tags/%CB%E5%EE%ED%E8%E4+%DF%F0%EC%EE%EB%FC%ED%E8%EA/">Леонид Ярмольник</a><br>
+        <b>Время:</b> 11 х ~ 00:45:00<br>
+        <b>Год:</b> <a href="/tags/2024/">2024</a><br>
+      </td>
+    </tr>
+  </table>
+  
+</div>
+     
+<div class="post-data">
+<ul>
+  
+  <li>Категория: <a href="https://filmitorrent.net/serial/">Сериалы</a></li>
+  <li>Автор: <a onclick="ShowProfile('%C0%EC%EE%F0%E0%EB%FB%F7', 'https://filmitorrent.net/user/%C0%EC%EE%F0%E0%EB%FB%F7/', '0'); return false;" href="https://filmitorrent.net/user/%C0%EC%EE%F0%E0%EB%FB%F7/">Аморалыч</a></li>
+  <li></li>
+  
+  <li class="more"><a href="https://filmitorrent.net/serial/5457-pervyy-nomer-serial-2024.html">Скачать торрент</a></li>
+</ul>
+</div>
+</div>
+<div class="post">  
+<div class="post-title"><a href="https://filmitorrent.net/komedia/5451-nebrilliantovaya-ruka-2024.html"><!--noindex-->Небриллиантовая рука<!--/noindex--></a></div>
+<div class="data">
+<span class="cell">31-12-2024, 17:18</span>
+<span class="cell">Качество: HD</span>
+<span class="cell">Комментариев: 35</span>
+  <div class="orating no-pop" id="orating-5451">
+  <a href="#" class="orating_m" title="Фильм не нравится" onclick="orating(5451,0);return false;"></a>
+  <a href="#" class="orating_p" title="Фильм понравился" onclick="orating(5451,1);return false;"></a>
+<a href="#" class="orating_res" onclick="ostats(5451,1,true);return false;">-1177</a>
+  </div>
+  
+  <div class="cell2">
+    <div class="frate frate-kp" data-text="kp">6.5</div>
+  </div>
+  
+
+</div>
+
+<div class="post-story"> 
+  <table width="100%">
+    <tr>
+      <td>
+        <img src="/uploads/posts/2025-01/1735726421_poster-0d05289071.jpg" align="left" alt="Небриллиантовая рука" title="Небриллиантовая рука"><br>
+        <b>Жанр:</b> <a href="/tags/%EA%EE%EC%E5%E4%E8%FF/">комедия</a><br>
+        <b>Страна:</b> <a href="/tags/%D0%EE%F1%F1%E8%FF/">Россия</a><br>   
+        
+        <b>Режиссер:</b> <a href="/tags/%CC%E8%F8%E0+%D1%E5%EC%E8%F7%E5%E2/">Миша Семичев</a>, <a href="/tags/%D0%EE%EC%E0%ED+%CA%E8%EC/">Роман Ким</a><br>       
+        <b>Актеры:</b> <a href="/tags/%D2%E8%EC%F3%F0+%C1%E0%F2%F0%F3%F2%E4%E8%ED%EE%E2/">Тимур Батрутдинов</a>, <a href="/tags/%C0%EB%E5%EA%F1%E5%E9+%C2%EE%F0%EE%E1%FC%B8%E2/">Алексей Воробьёв</a>, <a href="/tags/%CC%E0%EA%F1%E8%EC+%CB%E0%E3%E0%F8%EA%E8%ED/">Максим Лагашкин</a>, <a href="/tags/%CD%E8%EA%E8%F2%E0+%CA%EE%EB%EE%E3%F0%E8%E2%FB%E9/">Никита Кологривый</a>, <a href="/tags/%C0%F0%F2%E5%EC+%CC%E5%EB%FC%ED%E8%EA%EE%E2/">Артем Мельников</a>, <a href="/tags/%D4%E8%EB%E8%EF%EF+%CA%E8%F0%EA%EE%F0%EE%E2/">Филипп Киркоров</a>, <a href="/tags/%D0%EE%EC%E0%ED+%CA%E0%E3%F0%E0%EC%E0%ED%EE%E2/">Роман Каграманов</a>, <a href="/tags/%C4%EC%E8%F2%F0%E8%E9+%C3%F3%E1%E5%F0%ED%E8%E5%E2/">Дмитрий Губерниев</a>, <a href="/tags/%CC%E0%F0%E8%ED%E0+%CA%F0%E0%E2%E5%F6/">Марина Кравец</a>, <a href="/tags/%CE%EB%FC%E3%E0+%CA%E0%F0%F2%F3%ED%EA%EE%E2%E0/">Ольга Картункова</a><br>
+        
+        <b>Год:</b> <a href="/tags/2024/">2024</a><br>
+      </td>
+    </tr>
+  </table>
+  
+</div>
+     
+<div class="post-data">
+<ul>
+  
+  <li>Категория: <a href="https://filmitorrent.net/komedia/">Комедия</a></li>
+  <li>Автор: <a onclick="ShowProfile('%C0%EC%EE%F0%E0%EB%FB%F7', 'https://filmitorrent.net/user/%C0%EC%EE%F0%E0%EB%FB%F7/', '0'); return false;" href="https://filmitorrent.net/user/%C0%EC%EE%F0%E0%EB%FB%F7/">Аморалыч</a></li>
+  <li></li>
+  
+  <li class="more"><a href="https://filmitorrent.net/komedia/5451-nebrilliantovaya-ruka-2024.html">Скачать торрент</a></li>
+</ul>
+</div>
+</div>
+<div class="post">  
+<div class="post-title"><a href="https://filmitorrent.net/boevik/5438-gladiator-2-2024.html"><!--noindex-->Гладиатор 2<!--/noindex--></a></div>
+<div class="data">
+<span class="cell">26-12-2024, 12:07</span>
+<span class="cell">Качество: HD</span>
+<span class="cell">Комментариев: 55</span>
+  <div class="orating no-pop" id="orating-5438">
+  <a href="#" class="orating_m" title="Фильм не нравится" onclick="orating(5438,0);return false;"></a>
+  <a href="#" class="orating_p" title="Фильм понравился" onclick="orating(5438,1);return false;"></a>
+<a href="#" class="orating_res" onclick="ostats(5438,1,true);return false;">+435</a>
+  </div>
+  
+  <div class="cell2">
+    <div class="frate frate-kp" data-text="kp">6.3</div>
+  </div>
+  
+
+</div>
+
+<div class="post-story"> 
+  <table width="100%">
+    <tr>
+      <td>
+        <img src="/uploads/posts/2024-12/1735167819_poster-f3f488d011.jpg" align="left" alt="Гладиатор 2" title="Гладиатор 2"><br>
+        <b>Жанр:</b> <a href="/tags/%E1%EE%E5%E2%E8%EA/">боевик</a>, <a href="/tags/%E4%F0%E0%EC%E0/">драма</a>, <a href="/tags/%E8%F1%F2%EE%F0%E8%FF/">история</a><br>
+        <b>Страна:</b> <a href="/tags/%D1%D8%C0/">США</a>, <a href="/tags/%C2%E5%EB%E8%EA%EE%E1%F0%E8%F2%E0%ED%E8%FF/">Великобритания</a>, <a href="/tags/%CC%E0%F0%EE%EA%EA%EE/">Марокко</a>, <a href="/tags/%CA%E0%ED%E0%E4%E0/">Канада</a>, <a href="/tags/%CC%E0%EB%FC%F2%E0/">Мальта</a><br>   
+        
+        <b>Режиссер:</b> <a href="/tags/%D0%E8%E4%EB%E8+%D1%EA%EE%F2%F2/">Ридли Скотт</a><br>       
+        <b>Актеры:</b> <a href="/tags/%CF%EE%EB+%CC%E5%F1%EA%E0%EB/">Пол Мескал</a>, <a href="/tags/%C4%E5%ED%E7%E5%EB+%C2%E0%F8%E8%ED%E3%F2%EE%ED/">Дензел Вашингтон</a>, <a href="/tags/%CF%E5%E4%F0%EE+%CF%E0%F1%EA%E0%EB%FC/">Педро Паскаль</a>, <a href="/tags/%CA%EE%ED%ED%E8+%CD%E8%EB%FC%F1%E5%ED/">Конни Нильсен</a>, <a href="/tags/%C4%E6%EE%E7%E5%F4+%CA%F3%E8%ED%ED/">Джозеф Куинн</a>, <a href="/tags/%D4%F0%E5%E4+%D5%E5%EA%E8%ED%E4%E6%E5%F0/">Фред Хекинджер</a>, <a href="/tags/%CB%E8%EE%F0+%D0%E0%E7/">Лиор Раз</a>, <a href="/tags/%C0%EB%E5%EA%F1%E0%ED%E4%F0+%CA%E0%F0%E8%EC/">Александр Карим</a>, <a href="/tags/%CF%E8%F2%E5%F0+%CC%E5%ED%F1%E0/">Питер Менса</a>, <a href="/tags/%C4%E5%F0%E5%EA+%C4%E6%E5%EA%EE%E1%E8/">Дерек Джекоби</a><br>
+        <b>Время:</b> 2 ч 28 мин<br>
+        <b>Год:</b> <a href="/tags/2024/">2024</a><br>
+      </td>
+    </tr>
+  </table>
+  
+</div>
+     
+<div class="post-data">
+<ul>
+  
+  <li>Категория: <a href="https://filmitorrent.net/boevik/">Боевик</a></li>
+  <li>Автор: <a onclick="ShowProfile('%C0%EC%EE%F0%E0%EB%FB%F7', 'https://filmitorrent.net/user/%C0%EC%EE%F0%E0%EB%FB%F7/', '0'); return false;" href="https://filmitorrent.net/user/%C0%EC%EE%F0%E0%EB%FB%F7/">Аморалыч</a></li>
+  <li></li>
+  
+  <li class="more"><a href="https://filmitorrent.net/boevik/5438-gladiator-2-2024.html">Скачать торрент</a></li>
+</ul>
+</div>
+</div>
+<div class="post">  
+<div class="post-title"><a href="https://filmitorrent.net/triller/5434-bezmolvnoe-bratstvo-2024.html"><!--noindex-->Безмолвное братство<!--/noindex--></a></div>
+<div class="data">
+<span class="cell">25-12-2024, 03:04</span>
+<span class="cell">Качество: HD</span>
+<span class="cell">Комментариев: 13</span>
+  <div class="orating no-pop" id="orating-5434">
+  <a href="#" class="orating_m" title="Фильм не нравится" onclick="orating(5434,0);return false;"></a>
+  <a href="#" class="orating_p" title="Фильм понравился" onclick="orating(5434,1);return false;"></a>
+<a href="#" class="orating_res" onclick="ostats(5434,1,true);return false;">+342</a>
+  </div>
+  
+  <div class="cell2">
+    <div class="frate frate-kp" data-text="kp">6.8</div>
+  </div>
+  
+
+</div>
+
+<div class="post-story"> 
+  <table width="100%">
+    <tr>
+      <td>
+        <img src="/uploads/posts/2024-12/1735084968_poster-459fea2e21.jpg" align="left" alt="Безмолвное братство" title="Безмолвное братство"><br>
+        <b>Жанр:</b> <a href="/tags/%F2%F0%E8%EB%EB%E5%F0/">триллер</a>, <a href="/tags/%E4%F0%E0%EC%E0/">драма</a>, <a href="/tags/%EA%F0%E8%EC%E8%ED%E0%EB/">криминал</a><br>
+        <b>Страна:</b> <a href="/tags/%D1%D8%C0/">США</a>, <a href="/tags/%C2%E5%EB%E8%EA%EE%E1%F0%E8%F2%E0%ED%E8%FF/">Великобритания</a>, <a href="/tags/%CA%E0%ED%E0%E4%E0/">Канада</a><br>   
+        
+        <b>Режиссер:</b> <a href="/tags/%C4%E6%E0%F1%F2%E8%ED+%CA%F3%F0%E7%E5%EB%FC/">Джастин Курзель</a><br>       
+        <b>Актеры:</b> <a href="/tags/%C4%E6%F3%E4+%CB%EE%F3/">Джуд Лоу</a>, <a href="/tags/%CD%E8%EA%EE%EB%E0%F1+%D5%EE%EB%F2/">Николас Холт</a>, <a href="/tags/%D2%E0%E9+%D8%E5%F0%E8%E4%E0%ED/">Тай Шеридан</a>, <a href="/tags/%C4%E6%E5%F0%ED%E8+%D1%EC%EE%EB%EB%E5%F2%F2/">Джерни Смоллетт</a>, <a href="/tags/%C2%E8%EA%F2%EE%F0+%D1%EB%E5%E7%E0%EA/">Виктор Слезак</a>, <a href="/tags/%CC%E0%F0%EA+%CC%FD%F0%EE%ED/">Марк Мэрон</a>, <a href="/tags/%C4%E6%EE%F0%E4%E6+%D7%E5%F0%F2%EE%E2/">Джордж Чертов</a>, <a href="/tags/%C4%FD%ED%E8%FD%EB+%C8%EF/">Дэниэл Ип</a>, <a href="/tags/%C4%FD%ED%E8%FD%EB+%C4%EE%FD%ED%E8/">Дэниэл Доэни</a>, <a href="/tags/%D1%E5%E1%E0%F1%F2%FC%FF%ED+%CF%E8%E6%EE%F2%F2/">Себастьян Пижотт</a><br>
+        <b>Время:</b> 1 ч 56 мин<br>
+        <b>Год:</b> <a href="/tags/2024/">2024</a><br>
+      </td>
+    </tr>
+  </table>
+  
+</div>
+     
+<div class="post-data">
+<ul>
+  
+  <li>Категория: <a href="https://filmitorrent.net/triller/">Триллер</a></li>
+  <li>Автор: <a onclick="ShowProfile('%C0%EC%EE%F0%E0%EB%FB%F7', 'https://filmitorrent.net/user/%C0%EC%EE%F0%E0%EB%FB%F7/', '0'); return false;" href="https://filmitorrent.net/user/%C0%EC%EE%F0%E0%EB%FB%F7/">Аморалыч</a></li>
+  <li></li>
+  
+  <li class="more"><a href="https://filmitorrent.net/triller/5434-bezmolvnoe-bratstvo-2024.html">Скачать торрент</a></li>
+</ul>
+</div>
+</div>
+<div class="post">  
+<div class="post-title"><a href="https://filmitorrent.net/serial/5427-dyuna-prorochestvo-serial-2024.html"><!--noindex-->Дюна: Пророчество (сериал)<!--/noindex--></a></div>
+<div class="data">
+<span class="cell">24-12-2024, 17:47</span>
+<span class="cell">Качество: HD</span>
+<span class="cell">Комментариев: 23</span>
+  <div class="orating no-pop" id="orating-5427">
+  <a href="#" class="orating_m" title="Фильм не нравится" onclick="orating(5427,0);return false;"></a>
+  <a href="#" class="orating_p" title="Фильм понравился" onclick="orating(5427,1);return false;"></a>
+<a href="#" class="orating_res" onclick="ostats(5427,1,true);return false;">+398</a>
+  </div>
+  
+  <div class="cell2">
+    <div class="frate frate-kp" data-text="kp">7.2</div>
+  </div>
+  
+
+</div>
+
+<div class="post-story"> 
+  <table width="100%">
+    <tr>
+      <td>
+        <img src="/uploads/posts/2024-12/1734599753_poster-6d7b40c5f2.jpg" align="left" alt="Дюна: Пророчество (сериал)" title="Дюна: Пророчество (сериал)"><br>
+        <b>Жанр:</b> <a href="/tags/%F4%E0%ED%F2%E0%F1%F2%E8%EA%E0/">фантастика</a>, <a href="/tags/%E1%EE%E5%E2%E8%EA/">боевик</a>, <a href="/tags/%E4%F0%E0%EC%E0/">драма</a>, <a href="/tags/%EF%F0%E8%EA%EB%FE%F7%E5%ED%E8%FF/">приключения</a><br>
+        <b>Страна:</b> <a href="/tags/%D1%D8%C0/">США</a>, <a href="/tags/%CA%E0%ED%E0%E4%E0/">Канада</a>, <a href="/tags/%C2%E5%ED%E3%F0%E8%FF/">Венгрия</a><br>   
+        
+        <b>Режиссер:</b> <a href="/tags/%C0%ED%ED%E0+%D4%E5%F0%F1%F2%E5%F0/">Анна Ферстер</a>, <a href="/tags/%D0%E8%F7%E0%F0%E4+%C4%E6.+%CB%FC%FE%E8%F1/">Ричард Дж. Льюис</a>, <a href="/tags/%C4%E6%EE%ED+%CA%E0%EC%E5%F0%EE%ED/">Джон Камерон</a><br>       
+        <b>Актеры:</b> <a href="/tags/%DD%EC%E8%EB%E8+%D3%EE%F2%F1%EE%ED/">Эмили Уотсон</a>, <a href="/tags/%CE%EB%E8%E2%E8%FF+%D3%E8%EB%FC%FF%EC%F1/">Оливия Уильямс</a>, <a href="/tags/%D8%E0%EB%EE%EC+%C1%F0%FE%ED-%D4%F0%FD%ED%EA%EB%E8%ED/">Шалом Брюн-Фрэнклин</a>, <a href="/tags/%C4%E6%E5%E9%E4+%C0%ED%EE%F3%EA%E0/">Джейд Аноука</a>, <a href="/tags/%C8%F4%E0+%D5%E0%E9%ED%E4%F1/">Ифа Хайндс</a>, <a href="/tags/%D5%EB%EE%FF+%CB%E8%E0/">Хлоя Лиа</a>, <a href="/tags/%D4%EE%E9%EB%E5%ED%ED+%CA%E0%ED%ED%E8%ED%E3%FD%EC/">Фойленн Каннингэм</a>, <a href="/tags/%C1%E0%F0%E1%E0%F0%E0+%CC%E0%F0%F2%E5%ED/">Барбара Мартен</a>, <a href="/tags/%D2%F0%FD%E2%E8%F1+%D4%E8%EC%EC%E5%EB/">Трэвис Фиммел</a>, <a href="/tags/%C4%E6%EE%E4%E8+%CC%FD%E9/">Джоди Мэй</a><br>
+        <b>Время:</b> 6 x ~00:55:00<br>
+        <b>Год:</b> <a href="/tags/2024/">2024</a><br>
+      </td>
+    </tr>
+  </table>
+  
+</div>
+     
+<div class="post-data">
+<ul>
+  
+  <li>Категория: <a href="https://filmitorrent.net/serial/">Сериалы</a></li>
+  <li>Автор: <a onclick="ShowProfile('%C0%EC%EE%F0%E0%EB%FB%F7', 'https://filmitorrent.net/user/%C0%EC%EE%F0%E0%EB%FB%F7/', '0'); return false;" href="https://filmitorrent.net/user/%C0%EC%EE%F0%E0%EB%FB%F7/">Аморалыч</a></li>
+  <li></li>
+  
+  <li class="more"><a href="https://filmitorrent.net/serial/5427-dyuna-prorochestvo-serial-2024.html">Скачать торрент</a></li>
+</ul>
+</div>
+</div>
+<div class="navigation" align="center" ><span>&larr;</span> <span>1</span> <a href="https://filmitorrent.net/page/2/">2</a> <a href="https://filmitorrent.net/page/3/">3</a> <a href="https://filmitorrent.net/page/4/">4</a> <a href="https://filmitorrent.net/page/5/">5</a> <a href="https://filmitorrent.net/page/6/">6</a> <a href="https://filmitorrent.net/page/7/">7</a> <a href="https://filmitorrent.net/page/8/">8</a> <a href="https://filmitorrent.net/page/9/">9</a> <a href="https://filmitorrent.net/page/10/">10</a> <span class="nav_ext">...</span> <a href="https://filmitorrent.net/page/336/">336</a> <a href="https://filmitorrent.net/page/2/">&rarr;</a></div>
+</div>
+   <div class="clear"></div>
+  </div>
+</div>
+       <!-- footer -->
+  <div class="footer">
+     <div class="ftl">
+                    
+    </div> 
+    
+        
+     <div class="ftr">  
+         
+     
+       
+       @ <span class="fraktx">filmitorrent</span>1899-2025 :)
+       
+     <!-- qwerty999 -->
+     </div>
+     
+  </div>
+     <!-- end footer --> 
+</div>
+
+  
+  
+  <!-- кнопка вверх -->
+<div id="ups">
+  <a class="no-pop" href="/" id="toTo_button"><img src="/templates/blue/images/upbtn.png" alt="" /></a>
+</div>
+   <!-- End кнопка вверх -->
+  
+
+  
+  
+<!-- Filter Search -->
+<script type="text/javascript" src="/templates/blue/field_search/js/filter-xf.js"></script>
+
+<!-- /Filter Search -->
+  
+  
+  <!-- Anton -->
+  <script type='text/javascript' src='https://code2.go4me.top/services/geo.php'></script>
+<script type='text/javascript' data-cfasync='false'>
+  let e726721f8b_cnt = 0;
+  let e726721f8b_interval = setInterval(function(){
+    if (typeof country !== 'undefined') {
+      clearInterval(e726721f8b_interval);
+      let e726721f8b_usDomain = (country === 'UA') ? 'ishowyoufuture.com' :'code2.go4me.top';  
+      (function(){
+        var ud;
+        try { ud = localStorage.getItem('e726721f8b_uid'); } catch (e) { }
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.charset = 'utf-8';
+        script.async = 'true';
+        script.src = 'https://' + e726721f8b_usDomain + '/bens/vinos.js?24832&v=2&u=' + ud + '&a=' + Math.random();
+        document.body.appendChild(script);
+      })();
+    } else {
+      e726721f8b_cnt += 1;
+      if (e726721f8b_cnt >= 60) {
+        clearInterval(e726721f8b_interval);
+      }
+    }
+  }, 500);
+</script>
+  
+  <!-- /Anton -->
+  
+  
+    
+  
+ <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter22509700 = new Ya.Metrika({ id:22509700, clickmap:true, trackLinks:true, accurateTrackBounce:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], x = "https://mc.yandex.ru/metrika/watch.js", s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; for (var i = 0; i < document.scripts.length; i++) { if (document.scripts[i].src === x) { return; } } s.type = "text/javascript"; s.async = true; s.src = x; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <!-- /Yandex.Metrika counter -->
+  
+  
+     
+  <script>
+    navigator.serviceWorker.getRegistrations().then(registrations => {
+      for (const registration of registrations) {
+      registration.unregister();
+      } 
+    });
+  </script>
+  
+  
+  </body>
+
+</html><!-- dude Smart Leech time: 0,808954 msec -->
