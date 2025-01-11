@@ -2,61 +2,59 @@ import os
 import time
 import shutil
 import datetime
-import requests
 from icecream import ic
+import html
+import requests
+from settings import *
 from bs4 import BeautifulSoup
-from send_message import telegram_sender
-from download_files import get_urls_bin_files
-from settings import filmitorrent, films_list_base, DEBUG, base_dir
-
-
-# URL страницы для парсинга
-url = "https://example.com"  # Замените на реальный URL
+from logger import print_error
 
 def get_info(url):
-    try:
-        # Выполняем запрос к странице
-        response = requests.get(url)
-        response.raise_for_status()  # Проверяем на ошибки HTTP
-        html_content = response.text
+    response = requests.get(url)
+    soup = BeautifulSoup(response.text, 'html.parser')
 
-        # Парсим HTML
-        soup = BeautifulSoup(html_content, "html.parser")
+    # Находим блок div с классом film-info
+    film_info_div = soup.find("div", class_="film-info")
 
-        # Находим блок <div class="film-info">
-        film_info_div = soup.find("div", class_="film-info")
-        if film_info_div:
-            # Извлекаем данные из блока
-            def extract_data(label):
-                element = film_info_div.find("b", text=label)
-                if element:
-                    sibling = element.next_sibling
-                    return sibling.strip() if sibling else None
-                return None
+    rep_list = [
+        ('Название:', '\nНазвание:'),
+        ('Оригинальное название:', '\nОригинальное название:'),
+        ('Год:', '\nГод:'),
+        ('Продолжительность:', '\nПродолжительность:'),
+        ('Страна:', '\nСтрана:'),
+        ('Рейтинг:', '\nРейтинг:'),
+        ('Режиссер:', '\nРежиссер:'),
+        ('Актеры:', '\nАктеры:'),
+        ('Жанр:', '\nЖанр:'),
+        ('Опубликовано:', '\nОпубликовано:'),
+        ('Дата выхода в России:', '\nДата выхода в России:'),
+        ('Премьера в мире:', '\nПремьера в мире:'),
+        (' , ', ', '),
+        (': ', ':'),
+        ('  ', ' '),
+        (' \n', '\n'),
+        ('\xa0', ''),
+    ]
 
-            # Составляем словарь данных
-            data = {
-                "Жанр": ", ".join([genre.text.strip() for genre in film_info_div.find("span", itemprop="genre").find_all("a")]),
-                "Страна": ", ".join([country.text.strip() for country in film_info_div.find_all("a") if "/tags/" in country["href"]]),
-                "Название": extract_data("Название:"),
-                "Оригинальное название": extract_data("Оригинальное название:"),
-                "Режиссер": ", ".join([director.text.strip() for director in film_info_div.find("span", itemprop="director").find_all("a")]),
-                "Актеры": ", ".join([actor.text.strip() for actor in film_info_div.find("span", itemprop="actors").find_all("a")]),
-                "Премьера в мире": extract_data("Премьера в мире:"),
-                "Продолжительность": extract_data("Продолжительность:"),
-                "Год": extract_data("Год:")
-            }
+    # 2024, &nbsp;«Атмосфера
 
-            # Сохраняем данные в текстовый файл
-            with open("info.txt", "w", encoding="utf-8") as file:
-                for key, value in data.items():
-                    file.write(f"{key}: {value}\n")
+    if film_info_div:
+        # Извлекаем текст только из этого блока
+        text = film_info_div.get_text(separator=" ", strip=True)
 
-            print("Информация успешно сохранена в 'info.txt'")
+        for item in rep_list:
+            text = text.replace(item[0], item[1])
+        text += f'\nurl:{url}'
+        film_name = os.path.basename(url).split('.')[0]
+        film_dir = os.path.join(base_dir_absolute, film_name)
+        file = os.path.join(film_dir, 'info.txt')
+
+        if not os.path.exists(file):
+            with open(file=file, mode='w', encoding='utf-8') as f:
+                f.write(text)
+            # print(f'Файл info.txt создан для {film_name}')
         else:
-            print("Блок <div class='film-info'> не найден.")
-
-    except requests.exceptions.RequestException as e:
-        print(f"Ошибка при загрузке страницы: {e}")
-    except Exception as e:
-        print(f"Ошибка при обработке данных: {e}")
+            # print(f'Файл info.txt уже есть для {film_name}')
+            pass
+    else:
+        print_error(f"[get_info] {url} Блок film-info не найден")

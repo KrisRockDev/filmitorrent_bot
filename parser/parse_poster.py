@@ -5,9 +5,8 @@ import datetime
 import requests
 from icecream import ic
 from bs4 import BeautifulSoup
-from send_message import telegram_sender
-from download_files import get_urls_bin_files
-from settings import filmitorrent, films_list_base, DEBUG, base_dir
+from settings import *
+from logger import print_error
 
 
 
@@ -31,7 +30,7 @@ def get_image(url):
                 # Преобразуем относительный путь в абсолютный
                 if img_url.startswith("/"):
                     img_url = filmitorrent + img_url
-                film_dir = os.path.join(base_dir, os.path.basename(url).split('.')[0])
+                film_dir = os.path.join(base_dir_absolute, os.path.basename(url).split('.')[0])
 
                 # Имя файла для сохранения
                 img_filename = os.path.join(film_dir, 'poster.' + os.path.basename(img_url).split('.')[-1])
@@ -45,13 +44,14 @@ def get_image(url):
                     with open(img_filename, "wb") as file:
                         file.write(img_response.content)
 
-                    print(f"Изображение успешно скачано и сохранено как '{img_filename}'")
+                    # print(f"Изображение успешно скачано и сохранено как '{img_filename}'")
                 else:
-                    print(f"Изображение уже сохранено как '{img_filename}'")
+                    # print(f"Изображение уже сохранено как '{img_filename}'")
+                    pass
             else:
-                print("Изображение не найдено в теге <img>.")
+                print_error(f"[get_image] {url} Изображение не найдено в теге <img>.")
         else:
-            print("Элемент <div class='poster-big'> не найден.")
+            print_error(f"[get_image] {url} Элемент <div class='poster-big'> не найден.")
 
     except requests.exceptions.RequestException as e:
-        print(f"Ошибка при загрузке страницы или изображения: {e}")
+        print_error(f"[get_image] {url} Ошибка при загрузке страницы или изображения: {e}")

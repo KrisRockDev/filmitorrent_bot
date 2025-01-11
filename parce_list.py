@@ -5,14 +5,17 @@ import datetime
 import requests
 from icecream import ic
 from bs4 import BeautifulSoup
-from send_message import telegram_sender
-from download_files import get_urls_bin_files
-from settings import filmitorrent, films_list_base, DEBUG, base_dir
+from settings import *
+from parser.parse_info import *
+from parser.parse_poster import *
+from parser.parse_des import *
+from parser.parse_img import *
+from parser.parse_torrents import get_torrents
+from logger import print_error
 
 
 def del_dir():
     lst = os.listdir(base_dir)
-    limit = 10
     if len(lst) > limit:
         del_list = lst[:-1 * limit]
         for item in del_list:
@@ -23,21 +26,18 @@ def del_dir():
                 shutil.rmtree(folder_path)
 
 
-def create_base_dir():
-    if base_dir not in os.listdir():
-        os.mkdir(base_dir)
+def create_dir(dir):
+    if dir not in os.listdir():
+        os.mkdir(dir)
 
 
 def create_film_dir(title):
-    create_base_dir()
+    create_dir(base_dir)
     if title not in os.listdir(base_dir):
         os.mkdir(os.path.join(base_dir, title))
-    print(title)
+    # print(f"{title=}")
     del_dir()
     return title
-
-
-
 
 
 def get_films_list():
@@ -62,18 +62,47 @@ def get_films_list():
         return results
 
     except requests.exceptions.RequestException as e:
-        print(f"Ошибка при загрузке страницы: {e}")
+        print_error(f"[get_films_list] {filmitorrent} Ошибка при загрузке страницы: {e}")
         return None
 
 
+def check_url(url):
+    try:
+        response = requests.get(url)
+        # Если статус код 200, ссылка работает
+        if response.status_code == 200:
+            return True
+        else:
+            print_error(f"[check_url] {url} Ошибка: {url} вернул статус код {response.status_code}.")
+            return False
+    except requests.exceptions.RequestException as e:
+        # В случае исключений (например, неправильный URL или нет соединения)
+        print_error(f"[check_url] {url} Ошибка при проверке ссылки {url}: {e}")
+        return False
+
+
 def parse_page():
+    for dir in dirs:
+        create_dir(dir)
+
     get_films_list()
 
     link_list = os.listdir(base_dir)
     for item in link_list:
         link = filmitorrent + f'/{item}.html'
 
-        get_image(link)
+        if check_url(link):
+            print(f'Обрабатываю {item}')
+            get_image(link)
+            print(f'- Постер загружен')
+            get_info(link)
+            get_des(link)
+            print(f'- Описание загружено')
+            get_img(link)
+            print(f'- Фрагменты загружены')
+            get_torrents(link)
+            print(f'- Файлы торрент загружены')
+    ic('Программа завершила работу')
 
 
 if __name__ == '__main__':
