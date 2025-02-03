@@ -1,7 +1,8 @@
 import requests
 from icecream import ic
+import os
+from dotenv import load_dotenv
 from logger import print_error
-
 
 def send_torrent_file(bot_token, chat_id, file_name, caption=""):
     """Отправляет торрент-файл с описанием в Telegram."""
