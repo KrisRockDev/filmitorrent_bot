@@ -45,6 +45,9 @@ def get_info(url):
         for item in rep_list:
             text = text.replace(item[0], item[1])
         text += f'\nurl:{url}'
+
+        text = text.replace(' Слоган:', '\nСлоган:').strip()
+
         film_name = os.path.basename(url).split('.')[0]
         film_dir = os.path.join(base_dir_absolute, film_name)
         file = os.path.join(film_dir, 'info.txt')

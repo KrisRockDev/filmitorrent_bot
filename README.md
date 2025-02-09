@@ -14,7 +14,7 @@
 3. Сборка образа:
    Выполните следующую команду в терминале для создания Docker-образа:
    ```bash
-   sudo docker build -t krisrockdev/filmitorrent_bot:2.2 .
+   sudo docker build -t krisrockdev/filmitorrent_bot:2.3 .
    ```
 
 4. Запуск контейнера:
@@ -25,8 +25,8 @@
    -e TOKEN='TELEGRAM-TOKEN' \
    -e CHAT_ID='12345678,910111213' \
    -e DELAY='1800' \
-   --name filmitorrent_bot_container_2_2 \
-   krisrockdev/filmitorrent_bot:2.2
+   --name filmitorrent_bot_container_2_3 \
+   krisrockdev/filmitorrent_bot:2.3
    ```
 
 
@@ -34,5 +34,3 @@
 - добавить отправку об ошибках администратору
 - добавить управление получателя через бота
 - отправку всех фильмов новым пользователям
-- соединить в один файл кадры фильма
-- Добавить парсинг слогана фильма например http://filmitorrent.net//5477-v-arktiku-2024.html

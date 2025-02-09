@@ -88,14 +88,16 @@ def parse_page():
     get_films_list()
 
     link_list = os.listdir(base_dir)
-    for item in link_list:
+    c = len(link_list)
+    for num, item in enumerate(link_list):
         link = filmitorrent + f'/{item}.html'
 
         if check_url(link):
-            print(f'Обрабатываю {item}')
+            print(f'{num+1}/{c} Обрабатываю {item}')
             get_image(link)
             print(f'- Постер загружен')
             get_info(link)
+            print(f'- Информация загружена')
             get_des(link)
             print(f'- Описание загружено')
             get_img(link)
