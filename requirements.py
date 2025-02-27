@@ -14,7 +14,8 @@ def install_requirements():
     try:
         # Выполнение команды pip freeze и запись в файл requirements.txt
         print("Устанавливаю зависимости из requirements.txt")
-        subprocess.run(["pip", "install ", "-r", "requirements.txt"], shell=True, check=True)
+        # pip install -r requirements.txt
+        subprocess.run(["pip", "install", "-r", "requirements.txt"], shell=True, check=True)
         print("Зависимости из requirements.txt установлены")
     except subprocess.CalledProcessError as e:
         print(f"Произошла ошибка: {e}")
