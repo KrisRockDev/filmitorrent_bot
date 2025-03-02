@@ -39,8 +39,8 @@ def build_message_without_description(data):
     message_parts = [fields[key].format(data[key]) for key in fields if
                      key in data and data[key] and data[key] != '---']
 
-    if 'url' in data and data['url'] and data['url'] != '---':
-        message_parts.append(f"\n🔗 <a href='{data['url']}'>Подробнее</a>")
+    # if 'url' in data and data['url'] and data['url'] != '---':
+    #     message_parts.append(f"\n🔗 <a href='{data['url']}'>Подробнее</a>")
 
     return "\n".join(message_parts)
 
@@ -82,7 +82,7 @@ def send_poster_with_info(bot_token, chat_id, info_file_path, image_folder):
                 send_photo_url,
                 data={
                     "chat_id": chat_id,
-                    "caption": caption,
+                    "caption": caption + f'\n\n{os.path.split(os.path.split(info_file_path)[0])[1]}',
                     "parse_mode": "HTML"
                 },
                 files={"photo": poster_file}
