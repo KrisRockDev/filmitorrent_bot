@@ -32,3 +32,9 @@ limit = 10
 # False - запуск бота в режиме реальной работы для периодического парсинга сайта
 # DEBUG = False
 DEBUG = True
+
+# ID канала для отправки сообщений
+CHANNEL_ID = os.getenv("CHANNEL_ID")
+
+# файл для хранения информации об отправленных сообщениях
+POSTED_MESSAGES_DB = 'posted_messages.json'
